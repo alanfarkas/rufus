@@ -1,0 +1,18 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "allowJs": true,
+    "sourceMap": true,
+    "module": "ES6", /* Suppress generation of "exports" and "requires" statments when an "import" exists */
+    "moduleResolution": "node",
+    "target": "ES2019",
+    //"rootDir": "scripts",
+    //"outDir": "transpiled"
+  }
+  //"include": [
+  //  "scripts/typescript/**/*"
+  //]
+}

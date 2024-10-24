@@ -1,0 +1,27 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmit": true,   // Don't emit; allow 'ttsc' to transform typescript files
+    "noEmitOnError": true,
+    "removeComments": false,
+    "allowJs": true,
+    "sourceMap": true,
+    "module": "ES6", /* Suppress generation of "exports" and "requires" statments when an "import" exists */
+    "moduleResolution": "node",
+    "target": "ES2019",
+    "plugins": [
+      {
+        // Add ".js" extension to "import" statements in transpiled javascript
+        "transform": "@zoltu/typescript-transformer-append-js-extension/output/index.js",
+        "after": true
+      }
+    ],
+    //"rootDir": "scripts",
+    "outDir": "../../../SkillsTracker/wwwroot/js/survey" /* Save transpiled files to SkillsTracker wwwroot dir*/
+  },
+  //"include": [
+  //  "scripts/typescript/**/*"
+  //]
+  "exclude": [ "node_modules" ]
+}

@@ -1,0 +1,14 @@
+{
+  "extends": "tslint:latest",
+  "rules": {
+    "comment-format": false,
+    "no-consecutive-blank-lines": false,
+    "no-console": [ true, "log", "warn" ]
+
+  },
+    "jsRules": {
+        "max-line-length": {
+            "options": [120]
+        }
+    }
+}
